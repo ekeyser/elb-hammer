@@ -33,7 +33,7 @@ var evacuateResponses = function () {
     // console.log(hashKey);
     var params = {
         Bucket: config.s3_bucket,
-        Key: hashKey,
+        Key: hashKey + ".json",
         Body: jsonOut
     };
     // console.log(params);
